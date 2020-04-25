@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Serilog;
 
 namespace Portal.Web
 {
@@ -21,6 +22,20 @@ namespace Portal.Web
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+
+                    webBuilder.UseSerilog((webHostBuilderContext, logger) =>
+                    {
+                        if (webHostBuilderContext.HostingEnvironment.IsProduction())
+                        {
+                            logger.WriteTo.MSSqlServer(
+                                webHostBuilderContext.Configuration.GetSection("Logging:mssql").Value,
+                                "Logs").MinimumLevel.Error();
+                        }
+                        else
+                        {
+                            logger.WriteTo.Console().MinimumLevel.Information();
+                        }
+                    });
                 });
     }
 }
