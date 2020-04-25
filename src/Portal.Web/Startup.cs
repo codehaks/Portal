@@ -36,12 +36,12 @@ namespace Portal.Web
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddRazorPages()
-                .AddRazorRuntimeCompilation()
-              .AddRazorPagesOptions(options =>
-              {
-                  options.Conventions.AuthorizeFolder("/user");
-                  options.Conventions.AuthorizeAreaFolder("admin", "/", "RequireAdminRole");
-              });
+                .AddRazorRuntimeCompilation();
+              //.AddRazorPagesOptions(options =>
+              //{
+              //    options.Conventions.AuthorizeFolder("/user");
+              //    options.Conventions.AuthorizeAreaFolder("admin", "/", "RequireAdminRole");
+              //});
         }
 
         

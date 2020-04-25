@@ -6,6 +6,8 @@
     <title>@ViewData["Title"] - Portal.Web</title>
     <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/site.css" />
+
+    @RenderSection("styles", required: false)
 </head>
 <body>
     <header>
@@ -24,6 +26,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="admin" asp-page="/index">Admin</a>
                         </li>
                     </ul>
                 </div>
