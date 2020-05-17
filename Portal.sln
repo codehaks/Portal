@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30021.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5AC776F2-8197-411C-AE7F-F51CE0D82D66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portal.Web", "src\Portal.Web\Portal.Web.csproj", "{B0C504B7-0FEB-44F5-AD1C-6D827CCDFEC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portal.Web", "src\Portal.Web\Portal.Web.csproj", "{B0C504B7-0FEB-44F5-AD1C-6D827CCDFEC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portal", "src\Portal\Portal.csproj", "{AF6419CF-B590-47B0-8312-4922E459D513}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portal", "src\Portal\Portal.csproj", "{AF6419CF-B590-47B0-8312-4922E459D513}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
