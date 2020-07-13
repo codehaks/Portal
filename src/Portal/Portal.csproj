@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <Folder Include="Common\" />
-    <Folder Include="Application\" />
+    <Folder Include="Services\" />
     <Folder Include="Infrastrcuture\" />
   </ItemGroup>
 
