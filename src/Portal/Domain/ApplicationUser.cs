@@ -7,5 +7,7 @@ namespace Portal.Domain
 {
     public class ApplicationUser : IdentityUser
     {
+       
+
     }
 }
