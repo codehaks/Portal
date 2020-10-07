@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Portal.Domain;
 
-namespace Portal.Persistance
+namespace Portal.Persistence
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

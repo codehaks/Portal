@@ -1,0 +1,24 @@
+﻿@page
+@model Portal.Web.Areas.User.Pages.Profile.IndexModel
+@{
+    ViewData["Title"] = "Profile";
+    //var base64 = Convert.ToBase64String(Model.UserProfile.Image);
+}
+
+
+
+@Model.UserProfile.FirstName
+<br />
+@Model.UserProfile.LastName
+@*<br />
+@{var Gender = EnumHelper<GenderType>
+                 .GetDisplayValue(@Model.UserProfile.Gender);
+    @Html.DisplayFor(e => Gender)
+}*@
+<br />
+
+
+<a asp-page="edit" class="btn btn-secondary">Edit </a>
+
+
+

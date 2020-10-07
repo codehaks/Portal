@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Portal.Persistance;
 using Portal.Domain;
+using Portal.Persistence;
 
 namespace Portal.Web
 {

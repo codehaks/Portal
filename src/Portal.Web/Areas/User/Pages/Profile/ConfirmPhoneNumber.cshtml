@@ -1,0 +1,11 @@
+﻿@page
+@model Portal.Web.Areas.User.Pages.Profile.ConfirmPhoneNumberModel
+@{
+    ViewData["title"] = "تایید شماره موبایل";
+}
+
+    <form method="post" >
+        <input asp-for="Code" class="form-control" />
+        <button type="submit" class="btn btn-primary">تایید شماره</button>
+
+    </form>
