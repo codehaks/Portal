@@ -16,9 +16,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Common\" />
     <Folder Include="Services\" />
-    <Folder Include="Infrastrcuture\" />
+    <Folder Include="Shared\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Application\" />
   </ItemGroup>
 
 </Project>
