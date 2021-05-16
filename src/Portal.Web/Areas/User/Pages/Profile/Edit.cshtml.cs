@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Portal.Domain;
+using Portal.Persistence.Models;
 using Portal.Web.Common.Extentions;
 
 namespace Portal.Web.Areas.User.Pages.Profile

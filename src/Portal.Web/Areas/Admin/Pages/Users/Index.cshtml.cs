@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Portal.Domain;
-using System;
+using Portal.Persistence.Models;
 using System.Collections.Generic;
 using System.Linq;
 

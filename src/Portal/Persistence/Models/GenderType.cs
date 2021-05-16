@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Portal.Domain
+namespace Portal.Persistence.Models
 {
     public enum GenderType
     {

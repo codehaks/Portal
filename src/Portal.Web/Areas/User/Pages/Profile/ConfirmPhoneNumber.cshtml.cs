@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Portal.Domain;
+using Portal.Persistence.Models;
 
 namespace Portal.Web.Areas.User.Pages.Profile
 {
@@ -25,9 +25,7 @@ namespace Portal.Web.Areas.User.Pages.Profile
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             var code = await _userManager.GenerateChangePhoneNumberTokenAsync(user, user.PhoneNumber);
-            //var smsSender = new SmsSender();
-            //await smsSender.SendSmsAsync(user.UserName, $"کد تایید سیبسان : {code}");
-
+        
             return Page();
         }
 
