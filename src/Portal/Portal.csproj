@@ -18,8 +18,7 @@
   <ItemGroup>
     <Folder Include="Common\" />
     <Folder Include="Domain\" />
-    <Folder Include="Application\" />
-    <Folder Include="Shared\" />
+    <Folder Include="Modules\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
