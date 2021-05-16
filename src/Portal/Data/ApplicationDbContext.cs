@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-using Portal.Persistence.Models;
+using Portal.Data.Models;
 
 namespace Portal.Persistence
 {

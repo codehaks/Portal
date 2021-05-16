@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Portal.Persistence.Models;
+using Portal.Data.Models;
 
 namespace Portal.Web.Areas.User.Pages.Profile
 {

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace Portal.Persistence.Models
+namespace Portal.Data.Models
 {
     public class ApplicationUser : IdentityUser
     {
