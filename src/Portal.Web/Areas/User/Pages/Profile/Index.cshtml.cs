@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Portal.Data.Models;
+using Portal.Domain.Common;
+using Portal.Domain.Models;
 using Portal.Web.Common.Extentions;
 
 namespace Portal.Web.Areas.User.Pages.Profile

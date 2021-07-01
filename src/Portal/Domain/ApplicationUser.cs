@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Portal.Domain.Common;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace Portal.Data.Models
+namespace Portal.Domain.Models
 {
     public class ApplicationUser : IdentityUser
     {
