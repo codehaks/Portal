@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Portal.Persistence;
 using Portal.Domain.Common;
+using Portal.Domain.Models;
 
 namespace Portal.Web
 {
